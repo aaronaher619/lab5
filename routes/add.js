@@ -7,7 +7,7 @@ exports.addFriend = function(request, response) {
 	var newFriend = {
 		"name": friendName,
 		"description": friendDescription,
-		"imageURL": "http://lorempixel.com/400/400/people"
+		"imageURL": "https://picsum.photos/400/400"
 	};
 
 	data.friends.push(newFriend);
